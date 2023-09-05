@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-
+// 바꾼 거: https://port-0-jsonserver-6w1j2alm4a7mi8.sel5.cloudtype.app/
 
 
 // 컴포넌트를 파일별로 안 나눈 경우(이 경우 inport 할 필요가 없음)
@@ -74,7 +74,7 @@ function App() {
   //   console.log('---', res);
   // }) 
 
-  // axios.get('https://port-0-server-6w1j2alm4a7mi8.sel5.cloudtype.app/abc/2') //cloudType에 올려서 얻은 서버로 바꿈
+  // axios.get('https://port-0-jsonserver-6w1j2alm4a7mi8.sel5.cloudtype.app/abc/2') //cloudType에 올려서 얻은 서버로 바꿈
   // .then(res => {
   //   console.log('서버에 올린 거', res);
   // }) 
